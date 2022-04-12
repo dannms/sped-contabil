@@ -58,7 +58,7 @@ export default function PostPage({ postagem }) {
 }
 
 export async function getStaticPaths() {
-	const { data } = await client.query({
+	const { data: data } = await client.query({
 		query: gql`
 			query {
 				postagens {
