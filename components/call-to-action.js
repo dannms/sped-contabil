@@ -63,11 +63,11 @@ const Cta = () => {
 	}
 
 	return (
-		<div className="py-20 bg-cta-footer bg-cover bg-center">
+		<div className="py-20 bg-cta-footer bg-cover bg-center text-center lg:text-left">
 			<Container>
-				<div className="flex flex-col lg:flex-row w-full gap-5 items-center justify-between">
+				<div className="flex flex-col lg:flex-row w-full gap-5 items-center mx-auto md:max-w-lg lg:max-w-full">
 					<div className="w-full flex flex-col gap-5">
-						<div className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-center lg:items-start">
 							<h3 className="text-3xl lg:text-4xl font-bold font-serif text-white">
 								Ficou interessado?
 							</h3>

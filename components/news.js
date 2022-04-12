@@ -24,7 +24,7 @@ export default function News({ items }) {
 								</a>
 							</Link>
 						</div>
-						<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+						<div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:max-w-lg lg:max-w-full mx-auto">
 							{items.map((item, i) => (
 								<Link key={i} href={`/posts/${item.slug}`}>
 									<a>

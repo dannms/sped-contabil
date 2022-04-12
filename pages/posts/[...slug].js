@@ -11,7 +11,7 @@ export default function PostPage({ postagem }) {
 			<Head>
 				<title>{postagem.titulo}</title>
 			</Head>
-			<div>
+			<div className="text-center lg:text-left md:max-w-lg lg:max-w-full mx-auto">
 				<Container>
 					<div className="pt-32 pb-20">
 						<div className="relative w-full h-96">

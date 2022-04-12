@@ -128,16 +128,16 @@ const Contato = () => {
 			<Head>
 				<title>Sped Contábil • Contato</title>
 			</Head>
-			<div>
+			<div className="text-center md:text-left max-w-lg mx-auto lg:max-w-full">
 				<Container>
 					<div className="pt-40 pb-20 flex flex-col gap-5">
-						<div className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-center">
 							<h3 className="text-3xl lg:text-4xl font-bold font-serif text-primary">
 								Entre em contato conosco
 							</h3>
 							<div className="w-8 h-1 bg-secondary"></div>
 						</div>
-						<div className="grid grid-cols-2 gap-10">
+						<div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 							<form
 								id="contato"
 								autoComplete="off"

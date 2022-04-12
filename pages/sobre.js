@@ -8,10 +8,10 @@ const Sobre = () => {
 			<Head>
 				<title>Sped Contábil • Sobre nós</title>
 			</Head>
-			<div>
+			<div className="text-center md:text-left max-w-lg mx-auto lg:max-w-full">
 				<Container>
 					<div className="pt-40 pb-20 flex flex-col gap-5">
-						<div className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-center">
 							<h3 className="text-3xl lg:text-4xl font-bold font-serif text-primary">
 								SPED Contábil
 							</h3>
@@ -32,7 +32,7 @@ const Sobre = () => {
 								</div>
 								<div className="col-span-2">
 									<div className="flex flex-col gap-5">
-										<div className="flex flex-col gap-2">
+										<div className="flex flex-col gap-2 items-center">
 											<h3 className="text-3xl lg:text-xl font-bold font-serif text-primary">
 												Quem somos?
 											</h3>
@@ -72,7 +72,7 @@ const Sobre = () => {
 							</div>
 							<div className="py-10">
 								<div>
-									<div className="flex flex-col gap-2">
+									<div className="flex flex-col gap-2 items-center">
 										<h3 className="text-3xl lg:text-xl font-bold font-serif text-primary">
 											Nossos valores
 										</h3>

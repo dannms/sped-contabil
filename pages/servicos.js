@@ -49,10 +49,10 @@ const Servicos = () => {
 			<Head>
 				<title>Sped Contábil • Serviços</title>
 			</Head>
-			<div>
+			<div className="text-center lg:text-left max-w-lg mx-auto lg:max-w-full">
 				<Container>
 					<div className="pt-40 pb-20 flex flex-col gap-5">
-						<div className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-center">
 							<h3 className="text-3xl lg:text-4xl font-bold font-serif text-primary">
 								Nossos serviços
 							</h3>
@@ -64,7 +64,7 @@ const Servicos = () => {
 						{services.map((item) => (
 							<div
 								key={item.id}
-								className="grid grid-cols-2 gap-10"
+								className="grid grid-cols-1 lg:grid-cols-2 gap-10"
 							>
 								<div>
 									<h6 className="font-serif text-lg font-bold">
@@ -80,7 +80,7 @@ const Servicos = () => {
 									Confira as soluções que desenvolvemos para o
 									seu negócio:
 								</h4>
-								<div className="grid grid-cols-4 gap-10">
+								<div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 									{solutions.map((item) => (
 										<div
 											key={item.id}

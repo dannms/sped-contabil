@@ -51,7 +51,7 @@ const InfoFooter = () => {
 	return (
 		<footer className="bg-[#15003D] text-white">
 			<Container>
-				<div className="grid grid-cols-4 py-10 gap-5">
+				<div className="grid grid-cols-1 lg:grid-cols-4 py-10 gap-5">
 					<div className="">
 						<div className="flex flex-col gap-10">
 							<div className="flex flex-col gap-2">
@@ -86,7 +86,7 @@ const InfoFooter = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="col-span-2">
+					<div className="lg:col-span-2">
 						<div className="flex flex-col gap-10">
 							<div className="flex flex-col gap-2">
 								<h6 className="text-lg lg:text-lg font-bold font-serif text-white">

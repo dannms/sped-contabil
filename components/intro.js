@@ -25,11 +25,11 @@ const introInfo = [
 
 const Intro = () => {
 	return (
-		<div className="py-24 text-accent">
+		<div className="py-24 text-accent md:max-w-lg lg:max-w-full mx-auto text-center lg:text-left">
 			<Container>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
 					<div className="flex flex-col gap-5">
-						<div className="flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-center">
 							<h3 className="text-3xl lg:text-4xl font-bold font-serif text-primary">
 								Sobre nós
 							</h3>

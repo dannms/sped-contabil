@@ -22,7 +22,7 @@ const SocialFooter = () => {
 	return (
 		<div className="bg-primary text-white">
 			<Container>
-				<div className="flex flex-col lg:flex-row items-center justify-between py-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between py-4 text-center lg:text-left gap-5">
 					<div>
 						<h5 className="text-sm">
 							Entre em contato conosco através de nossas redes
