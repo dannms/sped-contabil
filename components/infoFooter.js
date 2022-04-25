@@ -2,23 +2,23 @@ import Container from './container';
 
 const usefulLinks = [
 	{
-		nome: '1',
-		to: '/',
+		nome: 'CRC',
+		to: 'https://www.crc.org.br/',
 		id: 1,
 	},
 	{
-		nome: '2',
-		to: '/',
+		nome: 'Banco Central',
+		to: 'https://www.bcb.gov.br/',
 		id: 2,
 	},
 	{
-		nome: '3',
-		to: '/',
+		nome: 'OAB',
+		to: 'https://www.oab.org.br/',
 		id: 3,
 	},
 	{
-		nome: '4',
-		to: '/',
+		nome: 'Receita Federal',
+		to: 'https://www.gov.br/receitafederal/pt-br',
 		id: 4,
 	},
 ];
